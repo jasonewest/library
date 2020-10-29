@@ -1,0 +1,17 @@
+<!-- Customer Experience Digital Data Layer (ceddl)
+ Purpose: Function to clear any previous data layer call and create data layer JSON object
+ Based on: https://www.bounteous.com/insights/2017/06/22/developers-guide-implementing-data-layer/ 
+-->
+
+<script>
+
+var ceddl = window.ceddl = window.ceddl || [];
+
+//Begin JSON data layer generation
+
+ceddl.push({
+  key: 'test',
+});
+
+</script>
+<!-- End Customer Experience Digital Data Layer (ceddl) -->
