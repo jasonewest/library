@@ -1,5 +1,4 @@
 <!-- Customer Experience Digital Data Layer (ceddl)-->
-<script>
 
 // Function to clear any previous data layer call and create data layer JSON object
 // based on source: https://www.bounteous.com/insights/2017/06/22/developers-guide-implementing-data-layer/
@@ -24,6 +23,7 @@ ceddl.push({
   key: 'test',
   date_visit: curday('|'),
   url: window.location.href
-});</script>
+});
+
 <!-- End Customer Experience Digital Data Layer (ceddl) -->
 
